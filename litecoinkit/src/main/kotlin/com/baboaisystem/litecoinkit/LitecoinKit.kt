@@ -18,7 +18,7 @@ import com.baboaisystem.bitcoincore.storage.Storage
 import com.baboaisystem.bitcoincore.utils.Base58AddressConverter
 import com.baboaisystem.bitcoincore.utils.PaymentAddressParser
 import com.baboaisystem.bitcoincore.utils.SegwitAddressConverter
-import com.baboaisystem.hdwalletkit.Mnemonic
+import com.baboai.hdwalletkit.Mnemonic
 import com.baboaisystem.litecoinkit.validators.LegacyDifficultyAdjustmentValidator
 import com.baboaisystem.litecoinkit.validators.ProofOfWorkValidator
 

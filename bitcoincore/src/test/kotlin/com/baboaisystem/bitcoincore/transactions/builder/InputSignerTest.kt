@@ -13,7 +13,7 @@ import com.baboaisystem.bitcoincore.storage.InputToSign
 import com.baboaisystem.bitcoincore.transactions.scripts.ScriptType
 import com.baboaisystem.bitcoincore.transactions.scripts.Sighash
 import com.baboaisystem.hdwalletkit.HDKey
-import com.baboaisystem.hdwalletkit.HDWallet
+import com.baboai.hdwalletkit.HDWallet
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.assertThrows
 import org.mockito.Mockito.anyBoolean

@@ -65,6 +65,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.5.0'
 
     // HDWallet Kit
+    //api 'com.github.baboaisystem:lib_hdwallet_kotlin:5ed9cb8'
     api 'com.github.baboaisystem:lib_hdwallet_kotlin:5ed9cb8'
 
     // Test helpers

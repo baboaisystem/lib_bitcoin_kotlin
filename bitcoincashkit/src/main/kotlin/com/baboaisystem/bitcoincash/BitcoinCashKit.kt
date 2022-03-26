@@ -25,7 +25,7 @@ import com.baboaisystem.bitcoincore.storage.Storage
 import com.baboaisystem.bitcoincore.utils.Base58AddressConverter
 import com.baboaisystem.bitcoincore.utils.CashAddressConverter
 import com.baboaisystem.bitcoincore.utils.PaymentAddressParser
-import com.baboaisystem.hdwalletkit.Mnemonic
+import com.baboai.hdwalletkit.Mnemonic
 
 class BitcoinCashKit : AbstractKit {
     sealed class NetworkType {
