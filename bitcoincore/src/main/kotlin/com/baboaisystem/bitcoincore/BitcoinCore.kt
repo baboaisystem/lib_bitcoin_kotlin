@@ -21,9 +21,9 @@ import com.baboaisystem.bitcoincore.transactions.extractors.TransactionMetadataE
 import com.baboaisystem.bitcoincore.transactions.extractors.TransactionOutputProvider
 import com.baboaisystem.bitcoincore.transactions.scripts.ScriptType
 import com.baboaisystem.bitcoincore.utils.*
-//import com.baboai.hdwalletkit.HDWallet
-import com.baboai.hdwalletkit.HDWallet
-import com.baboai.hdwalletkit.Mnemonic
+
+import com.baboaisystem.hdwalletkit.HDWallet
+import com.baboaisystem.hdwalletkit.Mnemonic
 import io.reactivex.Single
 import java.lang.Error
 import java.util.*

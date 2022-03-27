@@ -40,7 +40,7 @@ import com.baboaisystem.dashkit.storage.DashStorage
 import com.baboaisystem.dashkit.tasks.PeerTaskFactory
 import com.baboaisystem.dashkit.validators.DarkGravityWaveTestnetValidator
 import com.baboaisystem.dashkit.validators.DarkGravityWaveValidator
-import com.baboai.hdwalletkit.Mnemonic
+import com.baboaisystem.hdwalletkit.Mnemonic
 import io.reactivex.Single
 
 class DashKit : AbstractKit, IInstantTransactionDelegate, BitcoinCore.Listener {

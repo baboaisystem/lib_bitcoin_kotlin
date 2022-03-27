@@ -49,7 +49,8 @@ class HodlerPluginTest {
         val pluginData = mock<IPluginData>()
 
         assertThrows<IllegalStateException> {
-            hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+            //hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+            hodlerPlugin.processOutputs(mutableTransaction, pluginData, true)
         }
     }
 
@@ -61,7 +62,8 @@ class HodlerPluginTest {
         whenever(recipientAddress.scriptType).thenReturn(ScriptType.P2SH)
 
         assertThrows<IllegalStateException> {
-            hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+            //hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+            hodlerPlugin.processOutputs(mutableTransaction, pluginData, true)
         }
     }
 
@@ -74,7 +76,8 @@ class HodlerPluginTest {
         whenever(mutableTransaction.recipientValue).thenReturn(50_000_001)
 
         assertThrows<IllegalStateException> {
-            hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+            //hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+            hodlerPlugin.processOutputs(mutableTransaction, pluginData, true)
         }
     }
 
@@ -92,7 +95,8 @@ class HodlerPluginTest {
         whenever(recipientAddress.hash).thenReturn(pubkeyHash)
         whenever(addressConverter.convert(redeemScriptHash, ScriptType.P2SH)).thenReturn(shAddress)
 
-        hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+        //hodlerPlugin.processOutputs(mutableTransaction, pluginData)
+        hodlerPlugin.processOutputs(mutableTransaction, pluginData, true)
 
         verify(addressConverter).convert(redeemScriptHash, ScriptType.P2SH)
         verify(mutableTransaction).recipientAddress = shAddress

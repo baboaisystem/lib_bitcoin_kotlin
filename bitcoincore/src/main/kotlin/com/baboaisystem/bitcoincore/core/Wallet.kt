@@ -1,8 +1,8 @@
 package com.baboaisystem.bitcoincore.core
 
 import com.baboaisystem.bitcoincore.models.PublicKey
-//import com.baboai.hdwalletkit.HDWallet
-import com.baboai.hdwalletkit.HDWallet
+//import com.baboaisystem.hdwalletkit.HDWallet
+import com.baboaisystem.hdwalletkit.HDWallet
 import java.lang.Exception
 
 class Wallet(private val hdWallet: HDWallet) {

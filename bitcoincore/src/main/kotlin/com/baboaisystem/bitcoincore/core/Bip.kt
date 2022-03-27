@@ -1,8 +1,8 @@
 package com.baboaisystem.bitcoincore.core
 
 import com.baboaisystem.bitcoincore.transactions.scripts.ScriptType
-//import com.baboai.hdwalletkit.HDWallet
-import com.baboai.hdwalletkit.HDWallet
+
+import com.baboaisystem.hdwalletkit.HDWallet
 
 enum class Bip {
     BIP44,

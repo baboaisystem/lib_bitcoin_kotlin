@@ -6,7 +6,7 @@ import com.baboaisystem.bitcoincore.network.Network
 import com.baboaisystem.bitcoincore.serializers.TransactionSerializer
 import com.baboaisystem.bitcoincore.storage.InputToSign
 import com.baboaisystem.bitcoincore.transactions.scripts.ScriptType
-import com.baboai.hdwalletkit.HDWallet
+import com.baboaisystem.hdwalletkit.HDWallet
 
 class InputSigner(private val hdWallet: HDWallet, val network: Network) {
 

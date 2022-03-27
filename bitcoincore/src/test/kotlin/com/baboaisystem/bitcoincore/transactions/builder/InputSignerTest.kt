@@ -12,8 +12,8 @@ import com.baboaisystem.bitcoincore.network.Network
 import com.baboaisystem.bitcoincore.storage.InputToSign
 import com.baboaisystem.bitcoincore.transactions.scripts.ScriptType
 import com.baboaisystem.bitcoincore.transactions.scripts.Sighash
-import com.baboai.hdwalletkit.HDKey
-import com.baboai.hdwalletkit.HDWallet
+import com.baboaisystem.hdwalletkit.HDKey
+import com.baboaisystem.hdwalletkit.HDWallet
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.assertThrows
 import org.mockito.Mockito.anyBoolean
