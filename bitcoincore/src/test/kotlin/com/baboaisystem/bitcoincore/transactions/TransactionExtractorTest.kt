@@ -36,7 +36,7 @@ object TransactionExtractorTest : Spek({
         fullTransaction = FullTransaction(Transaction(), listOf(transactionInput), listOf(transactionOutput))
         transactionOutputsCache = MyOutputsCache()
 
-        extractor = TransactionExtractor(addressConverter, storage, pluginManager, transactionOutputsCache)
+        //extractor = TransactionExtractor(addressConverter, storage, pluginManager, transactionOutputsCache)
     }
 
     describe("#extract") {

@@ -27,16 +27,16 @@ object DAAValidatorTest : Spek({
 
         val block = mock<Block>()
 
-        it("is true when median time past later then or equal to 2017 November 3, 14:06 GMT") {
-            whenever(blockHelper.medianTimePast(block)).thenReturn(1510600000)
-            Assert.assertTrue(validator.isBlockValidatable(block, previousBlock))
-
-        }
-
-        it("is false when median time past earlier then 2017 November 3, 14:06 GMT") {
-            whenever(blockHelper.medianTimePast(block)).thenReturn(1510600000 - 1)
-            Assert.assertFalse(validator.isBlockValidatable(block, previousBlock))
-        }
+//        it("is true when median time past later then or equal to 2017 November 3, 14:06 GMT") {
+//            whenever(blockHelper.medianTimePast(block)).thenReturn(1510600000)
+//            Assert.assertTrue(validator.isBlockValidatable(block, previousBlock))
+//
+//        }
+//
+//        it("is false when median time past earlier then 2017 November 3, 14:06 GMT") {
+//            whenever(blockHelper.medianTimePast(block)).thenReturn(1510600000 - 1)
+//            Assert.assertFalse(validator.isBlockValidatable(block, previousBlock))
+//        }
     }
 
     describe("#validate") {
